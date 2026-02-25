@@ -1,0 +1,48 @@
+# ======================
+# Node / Next.js
+# ======================
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# ======================
+# Python
+# ======================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Saved ML models (optional - only ignore if large)
+saved_models/
+*.h5
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ======================
+# OS & Editor
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# PDF reports (optional)
+student_risk_report.pdf
